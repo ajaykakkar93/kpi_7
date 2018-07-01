@@ -1,6 +1,6 @@
 {
 	"name": "Kpi_7",
-	"description": "Basic Kpi Object",
+	"description": "Qlik Sense Basic Kpi visualization takes 1 measures with Font Awesome 5.1 supported",
 	"type": "visualization",
 	"version": "1.0.0",
 	"author": "Ajay Kakkar",
