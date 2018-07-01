@@ -1,0 +1,69 @@
+<div qv-extension style="height: 100%; position: relative; overflow: hidden;" class="ng-scope">
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+	<style>
+.qv-object-Kpi_7 .bg-info {
+    background-color: #3BAFDA !important;
+}
+.qv-object-Kpi_7 .card {
+    margin-bottom: 1.875rem;
+    border: none;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.05);
+}
+.qv-object-Kpi_7 .bg-info {
+    background-color: {{layout.qHyperCube.qMeasureInfo["0"].bgcolor}} !important;
+}
+.qv-object-Kpi_7 .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 95%;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 0.27rem;
+    height: 96%;
+}
+.qv-object-Kpi_7 .card-body {
+    flex: 1 1 auto;
+    padding: 1.5rem;
+}
+.qv-object-Kpi_7 .card-body .media {
+    display: flex;
+    align-items: flex-start;
+}
+.qv-object-Kpi_7 .card-body .customcolor {
+    color: {{layout.qHyperCube.qMeasureInfo["0"].color}} !important;
+}
+.qv-object-Kpi_7 .card-body .font-large-2 {
+    font-size: 3rem !important;
+}
+.qv-object-Kpi_7 .card-body.float-left {
+    float: left !important;
+}
+.qv-object-Kpi_7 .card-body .text-right {
+    text-align: right !important;
+}
+.qv-object-Kpi_7 .card-body .media-body {
+    flex: 1;
+}
+</style>
+
+
+<div class="card bg-info" id="kpi_{{layout.qInfo.qId}}">
+            <div class="card-content">
+                <div class="card-body">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <i class="customcolor font-large-2 float-left {{layout.qHyperCube.qMeasureInfo['0'].icon}}"></i>
+                        </div>
+                        <div class="media-body customcolor text-right">
+                            <h3 class="customcolor">{{layout.qHyperCube.qGrandTotalRow["0"].qText}}</h3>
+                            <span>{{layout.qHyperCube.qMeasureInfo["0"].title}}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	
+</div>
