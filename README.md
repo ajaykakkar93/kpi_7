@@ -1,5 +1,6 @@
 # KPI 7
 ## Qlik Sense Basic Kpi visualization takes 1 measures with Font Awesome 5.1 supported
+
 <p>Only 1 Measure can be added</p>
 <p>Custom Title, Font, Background & text Color can be added</p>
 <p>Sheet Navigation can be used by adding the sheet id</p>
